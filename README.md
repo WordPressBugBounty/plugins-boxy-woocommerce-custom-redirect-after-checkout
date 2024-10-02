@@ -1,0 +1,1 @@
+# plugins-boxy-woocommerce-custom-redirect-after-checkout
