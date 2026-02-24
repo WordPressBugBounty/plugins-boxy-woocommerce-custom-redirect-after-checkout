@@ -1,28 +1,25 @@
 <?php
-
 /**
  * The plugin bootstrap file
  *
- * This file is read by WordPress to generate the plugin information in the plugin
- * admin area. This file also includes all of the dependencies used by the plugin,
- * registers the activation and deactivation functions, and defines a function
- * that starts the plugin.
- *
- * @link              http://appiesoftwebsolutions.com/
- * @since             1.0.0
+ * @link              https://appiesoftwebsolutions.com/
+ * @since             1.0.2
  * @package           Boxy_Woocommerce_Custom_Redirect_After_Checkout
  *
  * @wordpress-plugin
- * Plugin Name:       Boxy woocommerce custom redirect after checkout 
- * Plugin URI:        http://www.9infodev.com
- * Description:       This is a plugin used to redirect user to custom link after successful checkout.
- * Version:           1.0.1
- * Author:            Mandep singh Maan
- * Author URI:        http://appiesoftwebsolutions.com/
- * License:           GPL-2.0+
- * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       boxy woocommerce custom redirect after checkout 
+ * Plugin Name:       Boxy WooCommerce Custom Redirect After Checkout
+ * Plugin URI:        https://wordpress.org/plugins/boxy-woocommerce-custom-redirect-after-checkout/
+ * Description:       Redirect users to a custom link after successful WooCommerce checkout.
+ * Version:           1.0.2
+ * Author:            Mandep Singh Maan
+ * Author URI:        https://appiesoftwebsolutions.com/
+ * License:           GPL-2.0-or-later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain:       boxy-woocommerce-custom-redirect-after-checkout
  * Domain Path:       /languages
+ * Requires at least: 5.8
+ * Requires PHP:      7.4
+ * Tested up to:      6.5
  */
 
 // If this file is called directly, abort.

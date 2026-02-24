@@ -1,38 +1,39 @@
-=== Boxy woocommerce custom redirect after checkout  ===
-Contributors: Mandeep Singh Mann
-Tags: wocommerce custom redirect, woocommerce thankyou page, boxy plugins
-Requires at least: 4.7
-Tested up to: 5.9.2
-Stable tag: 3.5.3
+=== Boxy WooCommerce Custom Redirect After Checkout ===
+Contributors: mandeep-singh-maan
+Tags: woocommerce, redirect, checkout, thankyou page
+Requires at least: 5.8
+Tested up to: 6.5
+Requires PHP: 7.4
+Stable tag: 1.0.2
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-This is a plugin used to redirect user to custom link after successful checkout.
- 
+Redirect users to a custom URL after successful WooCommerce checkout.
+
+Compatible with the latest versions of WordPress and WooCommerce.
+
 == Installation ==
 
-1. Upload `boxy woocommerce custom redirect after checkout .php` to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Go to settings and find option name Boxy Wc Redirect.
-4. you have done. see result on frontend at time of successfull checkout.
-
-== Upgrade Notice ==
-
-Upgrade normally nothing will affect.
+1. Upload the plugin folder to the `/wp-content/plugins/` directory.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. Go to Settings → Boxy WC Redirect.
+4. Set your custom redirect URL.
+5. Save settings and test after checkout.
 
 == Frequently Asked Questions ==
 
-no questions yet.
+= Does this work with the latest WooCommerce? =
+
+Yes, it has been tested with the latest WooCommerce version.
 
 == Changelog ==
-Tested up to: 6.2.2
-= 1.0.1 =
-* Enjoy the plugin!
 
 = 1.0.2 =
-* Just a Regular Update!
+* Updated compatibility for latest WordPress (6.5).
+* Version bump.
+* Minor readme cleanup.
 
-= 1.0.3 =
-* Tested and No errors in recent wordpress update till 6.2.2
+= 1.0.1 =
+* Initial stable release.
